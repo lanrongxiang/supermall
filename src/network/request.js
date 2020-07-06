@@ -3,7 +3,7 @@ import originAxios from "axios";
 export default function request(config) {
 //    1.创建axios的实例
   const instance = originAxios.create({
-    baseURL: "http://152.136.185.210:8000/api/n3",
+    baseURL: "",
     timeout: 5000
   })
 
